@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #191919;
+  color: #F2F2F2;
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  body {
+    padding: 0 1rem; 
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 0; 
+  }
+}
+}
